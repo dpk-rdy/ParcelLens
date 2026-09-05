@@ -1,0 +1,25 @@
+[project]
+name = "parcellens"
+version = "1.0.0"
+description = "Parcel spend audit and transportation optimization engine"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy>=1.24",
+    "matplotlib>=3.7",
+    "pyarrow>=14.0",
+    "duckdb>=0.10",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,11 @@
+exception_type,lines,recovery_usd
+unearned_address_correction,1159,24339.0
+duplicate_billing,879,17953.71
+service_failure_refund,370,17145.239999999998
+manifested_not_shipped,717,14659.62
+rate_variance,2760,5695.17
+unearned_residential,760,5211.55
+weight_discrepancy,1768,2401.35
+unearned_peak_surcharge,759,1622.1
+dim_misapplication,674,1108.32
+fuel_percentage_error,803,542.18

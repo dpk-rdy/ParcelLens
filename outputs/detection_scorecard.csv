@@ -1,0 +1,10 @@
+exception_type,injected,detected,true_positive,false_positive,false_negative,recall,precision
+duplicate_billing,879,879,879,0,0,1.0,1.0
+manifested_not_shipped,717,718,717,1,0,1.0,0.9986072423398329
+dim_misapplication,652,674,498,176,154,0.7638036809815951,0.7388724035608308
+weight_discrepancy,1790,1768,1614,154,176,0.9016759776536313,0.9128959276018099
+rate_variance,2760,2760,2760,0,0,1.0,1.0
+fuel_percentage_error,853,803,803,0,50,0.9413833528722158,1.0
+unearned_residential,760,760,760,0,0,1.0,1.0
+unearned_address_correction,1159,1159,1159,0,0,1.0,1.0
+unearned_peak_surcharge,759,759,759,0,0,1.0,1.0
